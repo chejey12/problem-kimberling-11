@@ -1,11 +1,11 @@
 {
   "entries": [
     {
-      "harness_snapshot_sha256": "94e661306e6f94af1f9b0350fa7628e21bf0692cdd8090894afe792444ae173b",
+      "harness_snapshot_sha256": "5b73255f84a483499eba82e8351bae5a15fe77001cc4a42b4f5434b6b74054c9",
       "harness_version": "1.2.4",
       "importer_policy_sha256": "a7650a8ba5be3fef370914b24a49b1118f57dc12f41980f21b11ef2b0a8267c1",
       "source_manifest_sha256": "fedd664f1ac16c5232eb05076b73f2bab566ed672840e7f2af851c77253813b3",
-      "tree_sha256": "3d83f65240fb1c3137151156dd11d97dae8c2f7bca8496de829ca33bf16dc16a"
+      "tree_sha256": "3dedefedfd378d337a001be583d622a14423a70a3db2c402edcbadfecacaf3be"
     }
   ],
   "repository": "vibemathing/problem-kimberling-11",

@@ -7,12 +7,12 @@
 - Default branch: `main`
 - Visibility: `public`
 - Canonical Problem: `problem:kimberling-11`
-- ProblemContract SHA-256: `363551e75d54905dd52e51357aeaa2ab710509e3891de61a3084f124fd290d6d`
-- Problem lifecycle: `draft`
-- Problem admission: `preview_unadmitted`
+- ProblemContract SHA-256: `19e10a2ece817e12b6ba59960394791d20b9f5185b7a1d4133443a8106bd2558`
+- Problem lifecycle: `active`
+- Problem admission: `canonical_admitted`
 - Harness suite: `harness-source:web-research-full` `1.2.4`
 - Suite manifest SHA-256: `fedd664f1ac16c5232eb05076b73f2bab566ed672840e7f2af851c77253813b3`
-- Harness snapshot SHA-256: `94e661306e6f94af1f9b0350fa7628e21bf0692cdd8090894afe792444ae173b`
+- Harness snapshot SHA-256: `5b73255f84a483499eba82e8351bae5a15fe77001cc4a42b4f5434b6b74054c9`
 - Channel: `chatgpt-web-github-issue-pr-writer`
 
 ## Required read order

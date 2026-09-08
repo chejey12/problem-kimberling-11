@@ -209,81 +209,86 @@ This file is generated from repository truth and bounded for the web channel. It
       "policy": "solution-admission-v1"
     },
     "aliases": [
-      "kimberling-11",
-      "Kimberling #11: Run-length sequences"
+      "kimberling-11"
     ],
     "allowed_axioms": [
-      "none"
+      "classical-mathematics",
+      "source-explicit-definitions-only"
     ],
     "assumptions": [
-      "No mathematical claim is admitted from the bounty title alone.",
-      "Source status and award status are observations, not mathematical Results."
+      "The source offers USD 75 subject to its publication or accepted-short-solution conditions.",
+      "Award amount, source status, repository state, and computational discovery are not mathematical Results."
     ],
     "constraints": {
       "allowed_adapters": [
-        "source-fidelity-review-v1"
+        "source-fidelity-review-v1",
+        "lean-obligation-v1"
       ],
       "allowed_methods": [
-        "discovery"
+        "discovery",
+        "derivation",
+        "computation",
+        "proof",
+        "formalization"
       ],
-      "max_attempts": 1,
+      "max_attempts": 20,
       "runtime": {
-        "max_output_bytes": 262144,
-        "max_retries": 1,
-        "max_transitions": 20,
-        "timeout_seconds": 300
+        "max_output_bytes": 5242880,
+        "max_retries": 3,
+        "max_transitions": 300,
+        "timeout_seconds": 1800
       }
     },
-    "created_at": "2026-09-08T08:24:29Z",
+    "created_at": "2026-09-08T09:37:35Z",
     "definitions": [
       {
-        "definition": "The problem identified by the Project Problem Key and cited source URLs; not yet an admitted mathematical statement.",
-        "term": "draft bounty target"
+        "definition": "Definitions, initialization, asymptotic meaning, and computational model are those explicitly fixed by the cited source; unresolved ambiguity blocks Result admission.",
+        "term": "source-native interpretation"
       }
     ],
     "domain": {
-      "description": "Draft source-native bounty problem intake; exact mathematical domain remains subject to statement-faithfulness review.",
+      "description": "Source-defined mathematical or computational bounty target.",
       "objects": [
-        "objects explicitly named by the cited problem source"
+        "run-length transform",
+        "binary sequence",
+        "finite factor containment"
       ]
     },
-    "lifecycle": "draft",
+    "lifecycle": "active",
     "msc": [
-      "00A00"
+      "11B83"
     ],
     "problem_id": "problem:kimberling-11",
     "quantifiers": [
       {
-        "domain": "an exact, source-faithful ProblemContract for the cited bounty problem",
-        "kind": "find",
-        "variables": [
-          "reviewed_problem_contract"
-        ]
+        "domain": "the exact source-defined target stated in this contract",
+        "kind": "decide",
+        "variables": []
       }
     ],
     "schema_version": "1.0.0",
     "sources": [
       {
-        "retrieved_at": "2026-09-08T08:24:29Z",
-        "source": "Bounty problem source",
+        "retrieved_at": "2026-09-08T09:37:35Z",
+        "source": "Official bounty problem and terms page",
         "source_record_id": "kimberling-11",
         "url": "https://faculty.evansville.edu/ck6/integer/unsolved.html"
       },
       {
-        "retrieved_at": "2026-09-08T08:24:29Z",
-        "source": "Vibe Mathing Project #2 bounty intake",
+        "retrieved_at": "2026-09-08T09:37:35Z",
+        "source": "Vibe Mathing Project #2 award record",
         "source_record_id": "kimberling-11",
         "url": "https://github.com/users/vibemathing/projects/2"
       }
     ],
     "statement": {
       "language": "en",
-      "text": "Draft bounty intake target(s): Kimberling #11: Run-length sequences. The exact mathematical statement, quantifiers, definitions, assumptions, and acceptance conditions have not yet been frozen; this draft is not research-admitted.",
+      "text": "Let s be the unique nontrivial sequence over {1,2} with s(1)=1 and r(r(s))(n)=s(n) for all n, where r gives successive run lengths. Prove or disprove that every finite segment occurring in r(s) also occurs in s.",
       "version": 1
     },
-    "title": "Kimberling #11: Run-length sequences",
-    "updated_at": "2026-09-08T08:24:29Z"
+    "title": "Kimberling #11: run-length sequences",
+    "updated_at": "2026-09-08T09:37:35Z"
   },
-  "problem_contract_sha256": "363551e75d54905dd52e51357aeaa2ab710509e3891de61a3084f124fd290d6d"
+  "problem_contract_sha256": "19e10a2ece817e12b6ba59960394791d20b9f5185b7a1d4133443a8106bd2558"
 }
 ```
