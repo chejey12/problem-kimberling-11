@@ -1084,12 +1084,12 @@
       "sha256": "3f899616e5b8b6462d6bf3fcbc3a56be6b44a3bdc1730cf35cfc60abb67207a2"
     },
     {
-      "bytes": 9035,
+      "bytes": 9553,
       "layer": "web_channel",
       "mode": "0644",
       "owner": "harness",
       "path": "WEB_CONTEXT_BUNDLE.md",
-      "sha256": "6392294580958c5e0e1084cf2c60c4714220038e4e2bfe20e74b2c1affdf19b6"
+      "sha256": "5db9c16bb3c53810f8559d99eead9267570e1e5e8f23b4f2381a61cc8e0d6056"
     },
     {
       "bytes": 3270,
@@ -1468,12 +1468,12 @@
       "sha256": "08cfe86133ca8225b3909978735af132b1fc81c88612a0d22b51c0cc16b8e00c"
     },
     {
-      "bytes": 1557,
+      "bytes": 2005,
       "layer": "problem_instance",
       "mode": "0644",
       "owner": "problem",
       "path": "problem-library/records/canonical-problems.jsonl",
-      "sha256": "e30abb1cf2f0f5b39877b895a7480943550c727f7fe4b842769dc20966179541"
+      "sha256": "3fa147c590635a9cb0b88af7d33a9bd26af8843bc4cee897f91c80bd3124778f"
     },
     {
       "bytes": 3891,
@@ -1919,27 +1919,27 @@
   "harness_version": "1.2.4",
   "problem": {
     "admission": "preview_unadmitted",
-    "contract_sha256": "e64cd03254e03dd661eade23243c3c21793fc2d8bffa2d33c172cf8ed2e7f940",
+    "contract_sha256": "363551e75d54905dd52e51357aeaa2ab710509e3891de61a3084f124fd290d6d",
     "lifecycle": "draft",
-    "problem_id": "problem:template-placeholder"
+    "problem_id": "problem:kimberling-11"
   },
   "profile": "web-research-full",
-  "repository": "vibemathing/vibe-mathing-problem-public-template",
+  "repository": "vibemathing/problem-kimberling-11",
   "repository_identity": {
     "binding_state": "verified",
-    "database_id": 1358726712,
+    "database_id": 1361102452,
     "default_branch": "main",
-    "full_name": "vibemathing/vibe-mathing-problem-public-template",
-    "node_id": "R_kgDOUPyGOA",
+    "full_name": "vibemathing/problem-kimberling-11",
+    "node_id": "R_kgDOUSDGdA",
     "visibility": "public"
   },
   "schema_version": "1.1.0",
-  "snapshot_id": "harness-snapshot:template-placeholder",
+  "snapshot_id": "harness-snapshot:kimberling-11",
   "source": {
     "commit": "fedd664f1ac16c5232eb05076b73f2bab566ed67",
     "repository": "reviewed-public-export",
     "source_manifest_sha256": "fedd664f1ac16c5232eb05076b73f2bab566ed672840e7f2af851c77253813b3",
     "worktree_dirty": false
   },
-  "tree_sha256": "4cd282256d411fe493a82ef0050b5463e57339f15bd7a7c829a6f5d2fa1d0c7e"
+  "tree_sha256": "3d83f65240fb1c3137151156dd11d97dae8c2f7bca8496de829ca33bf16dc16a"
 }
