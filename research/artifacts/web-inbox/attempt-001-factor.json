@@ -29,8 +29,44 @@
   "pull_request_number": null,
   "pull_request_url": null
  },
- "objective": "Factor search: all factors of r(s) up to length 16 (6654+ starting positions) occur in s. No counterexample.",
+ "objective": "Factor search extended: r(r(s))=s verified to 4443 terms; all factors of r(s) up to length 30 (N=100000) and factor-language equality F(s)=F(r(s)) for k<=20 (N=200000). Proof draft: interleaved self-description argument.",
  "candidate_artifacts": [
+  {
+   "candidate_id": "candidate:kim11-complexity-result-json",
+   "kind": "computation",
+   "locator": "research/artifacts/candidates/kim11-complexity-result.json",
+   "sha256": "182959774cff515552d8f66f3d915f543d4222faee02446627e6eacad2ba8e7e"
+  },
+  {
+   "candidate_id": "candidate:kim11-complexity-py",
+   "kind": "computation",
+   "locator": "research/artifacts/candidates/kim11-complexity.py",
+   "sha256": "af8423aea308832ce4e0d20a7ae0eb6367e7a77db882f91938ce67c72ca174fd"
+  },
+  {
+   "candidate_id": "candidate:kim11-deep-result-json",
+   "kind": "computation",
+   "locator": "research/artifacts/candidates/kim11-deep-result.json",
+   "sha256": "7515f1a7d3d6891b8d7998d57ba88ea6c219e6feda0e3a3d78ed2e3bcb62a392"
+  },
+  {
+   "candidate_id": "candidate:kim11-deep-py",
+   "kind": "computation",
+   "locator": "research/artifacts/candidates/kim11-deep.py",
+   "sha256": "a1964951ca6722b71043a19bf4cc992b2b290c56aef7fd08e8dd4afba3573825"
+  },
+  {
+   "candidate_id": "candidate:kim11-oeis-full-json",
+   "kind": "computation",
+   "locator": "research/artifacts/candidates/kim11-oeis-full.json",
+   "sha256": "dd49abc8b8b66c8432ff9eee5fd218d047fd1ec6c83f1cba051a1f4211e360fc"
+  },
+  {
+   "candidate_id": "candidate:kim11-result-json",
+   "kind": "computation",
+   "locator": "research/artifacts/candidates/kim11-result.json",
+   "sha256": "675b2d697280ac35479be7168c5aeb568f9eea234eb0590f64b7daefb9e74922"
+  },
   {
    "candidate_id": "candidate:kim11-final2-py",
    "kind": "computation",
@@ -41,7 +77,12 @@
  "atomic_claims": [
   {
    "claim_id": "claim:factors-lt16-present",
-   "text": "All factors of r(s) of length <= 16 (6654+ starting positions each) occur in s = A025142 (10000 terms); r(r(s))=s verified to 4443 terms.",
+   "text": "All factors of r(s) of length <= 16 occur in s = A025142 (10000 terms).",
+   "status": "candidate"
+  },
+  {
+   "claim_id": "claim:factor-language-equality",
+   "text": "F(s) = F(r(s)) for lengths 1..20 (N=200000): the factor languages of s and r(s) coincide exactly — strong structural evidence the conjecture is TRUE, with a proof-sketch via the interleaved self-description s = 1^{u(1)} 2^{u(2)}..., u = 2^{s(1)} 1^{s(2)}...",
    "status": "candidate"
   }
  ],

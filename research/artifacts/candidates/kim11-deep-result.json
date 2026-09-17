@@ -1,0 +1,12 @@
+{
+ "experiment": "kimberling-11 extended factor search + structural construction",
+ "construction": "interleaved run-length generation, r(r(s))=s verified",
+ "s_len": 100000,
+ "u_len": 100014,
+ "r_s_eq_u": true,
+ "r_u_eq_s": true,
+ "missing_factors": [],
+ "result": "no counterexample: all factors of r(s) up to length 30 occur in s (N=100000)",
+ "generated_at": "2026-09-17T06:36:18.750757+00:00",
+ "claim_status": "candidate_numeric_check_only"
+}

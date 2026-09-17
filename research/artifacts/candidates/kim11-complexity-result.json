@@ -1,0 +1,149 @@
+{
+ "experiment": "kimberling-11 factor complexity comparison",
+ "s_len": 200000,
+ "results": [
+  {
+   "k": 1,
+   "p_s": 2,
+   "p_u": 2,
+   "u_subset_s": true,
+   "equal": true
+  },
+  {
+   "k": 2,
+   "p_s": 4,
+   "p_u": 4,
+   "u_subset_s": true,
+   "equal": true
+  },
+  {
+   "k": 3,
+   "p_s": 6,
+   "p_u": 6,
+   "u_subset_s": true,
+   "equal": true
+  },
+  {
+   "k": 4,
+   "p_s": 10,
+   "p_u": 10,
+   "u_subset_s": true,
+   "equal": true
+  },
+  {
+   "k": 5,
+   "p_s": 14,
+   "p_u": 14,
+   "u_subset_s": true,
+   "equal": true
+  },
+  {
+   "k": 6,
+   "p_s": 18,
+   "p_u": 18,
+   "u_subset_s": true,
+   "equal": true
+  },
+  {
+   "k": 7,
+   "p_s": 26,
+   "p_u": 26,
+   "u_subset_s": true,
+   "equal": true
+  },
+  {
+   "k": 8,
+   "p_s": 34,
+   "p_u": 34,
+   "u_subset_s": true,
+   "equal": true
+  },
+  {
+   "k": 9,
+   "p_s": 42,
+   "p_u": 42,
+   "u_subset_s": true,
+   "equal": true
+  },
+  {
+   "k": 10,
+   "p_s": 50,
+   "p_u": 50,
+   "u_subset_s": true,
+   "equal": true
+  },
+  {
+   "k": 11,
+   "p_s": 62,
+   "p_u": 62,
+   "u_subset_s": true,
+   "equal": true
+  },
+  {
+   "k": 12,
+   "p_s": 78,
+   "p_u": 78,
+   "u_subset_s": true,
+   "equal": true
+  },
+  {
+   "k": 13,
+   "p_s": 94,
+   "p_u": 94,
+   "u_subset_s": true,
+   "equal": true
+  },
+  {
+   "k": 14,
+   "p_s": 110,
+   "p_u": 110,
+   "u_subset_s": true,
+   "equal": true
+  },
+  {
+   "k": 15,
+   "p_s": 126,
+   "p_u": 126,
+   "u_subset_s": true,
+   "equal": true
+  },
+  {
+   "k": 16,
+   "p_s": 142,
+   "p_u": 142,
+   "u_subset_s": true,
+   "equal": true
+  },
+  {
+   "k": 17,
+   "p_s": 162,
+   "p_u": 162,
+   "u_subset_s": true,
+   "equal": true
+  },
+  {
+   "k": 18,
+   "p_s": 186,
+   "p_u": 186,
+   "u_subset_s": true,
+   "equal": true
+  },
+  {
+   "k": 19,
+   "p_s": 218,
+   "p_u": 218,
+   "u_subset_s": true,
+   "equal": true
+  },
+  {
+   "k": 20,
+   "p_s": 250,
+   "p_u": 250,
+   "u_subset_s": true,
+   "equal": true
+  }
+ ],
+ "note": "If F(r(s)) ⊆ F(s) for all tested k with large N, the factor sets may coincide — supporting a structural proof.",
+ "generated_at": "2026-09-17T06:37:51.704909+00:00",
+ "claim_status": "candidate_numeric_check_only"
+}
