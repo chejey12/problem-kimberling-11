@@ -56,6 +56,18 @@
    "sha256": "a1964951ca6722b71043a19bf4cc992b2b290c56aef7fd08e8dd4afba3573825"
   },
   {
+   "candidate_id": "candidate:kim11-follow-result-json",
+   "kind": "computation",
+   "locator": "research/artifacts/candidates/kim11-follow-result.json",
+   "sha256": "bacb72e8c6c091541d123b9f2aa34b5d060c23ab5201eed2424f1c73457bd622"
+  },
+  {
+   "candidate_id": "candidate:kim11-follow-py",
+   "kind": "computation",
+   "locator": "research/artifacts/candidates/kim11-follow.py",
+   "sha256": "19edb5ec9a85c332958a77b0545bf3d7bddcdb6d4c8cd816c5f98d811fc0c6ce"
+  },
+  {
    "candidate_id": "candidate:kim11-oeis-full-json",
    "kind": "computation",
    "locator": "research/artifacts/candidates/kim11-oeis-full.json",

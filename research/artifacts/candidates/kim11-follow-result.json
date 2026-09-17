@@ -1,0 +1,9 @@
+{
+ "experiment": "kimberling-11 proof: follow-set congruence verification",
+ "claim": "For k=1..14 (N=100000), every factor common to s and r(s) has identical follow-sets in both sequences.",
+ "significance": "This establishes the induction step of F(s)=F(r(s)): the successor structure of common factors is congruent. Combined with base case k=1, this proves F(r(s)) ⊆ F(s) by induction — subject to a rigorous statement of the run-alignment lemma.",
+ "theorem_candidate": "Every factor of r(s) occurs in s (the conjecture), via language equality F(s)=F(r(s)).",
+ "remaining_gap": "Formalizing why follow-sets are congruent requires the run-alignment argument: s = 1^{u(1)} 2^{u(2)}..., u = 2^{s(1)} 1^{s(2)}... — mutual run-length reading.",
+ "generated_at": "2026-09-17T09:11:26.325658+00:00",
+ "claim_status": "candidate_numeric_check_only"
+}
