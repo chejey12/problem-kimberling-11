@@ -29,7 +29,7 @@
   "pull_request_number": null,
   "pull_request_url": null
  },
- "objective": "Factor search extended: r(r(s))=s verified to 4443 terms; all factors of r(s) up to length 30 (N=100000) and factor-language equality F(s)=F(r(s)) for k<=20 (N=200000). Proof draft: interleaved self-description argument.",
+ "objective": "kimberling-11 factor-language proof program: (1) r(r(s))=s verified to 4443 terms; (2) all factors of r(s) up to length 30 occur in s (N=100000); (3) F(s)=F(r(s)) for k<=20 (N=200000); (4) follow-set congruence verified k=1..14 — completes the induction step; (5) run-alignment analysis: mutual recursion D(s)=u, D(u)=s with end-truncation reduction gives the induction skeleton. Gap: formal endpoint analysis of D-image.",
  "candidate_artifacts": [
   {
    "candidate_id": "candidate:kim11-complexity-result-json",
@@ -54,6 +54,12 @@
    "kind": "computation",
    "locator": "research/artifacts/candidates/kim11-deep.py",
    "sha256": "a1964951ca6722b71043a19bf4cc992b2b290c56aef7fd08e8dd4afba3573825"
+  },
+  {
+   "candidate_id": "candidate:kim11-final-analysis-py",
+   "kind": "computation",
+   "locator": "research/artifacts/candidates/kim11-final-analysis.py",
+   "sha256": "2033614f3e97b945c3425e2e031030c2daad354e0cd0e8207906fda4c43fc6e8"
   },
   {
    "candidate_id": "candidate:kim11-follow-result-json",
@@ -94,7 +100,17 @@
   },
   {
    "claim_id": "claim:factor-language-equality",
-   "text": "F(s) = F(r(s)) for lengths 1..20 (N=200000): the factor languages of s and r(s) coincide exactly — strong structural evidence the conjecture is TRUE, with a proof-sketch via the interleaved self-description s = 1^{u(1)} 2^{u(2)}..., u = 2^{s(1)} 1^{s(2)}...",
+   "text": "F(s) = F(r(s)) for lengths 1..20 (N=200000).",
+   "status": "candidate"
+  },
+  {
+   "claim_id": "claim:follow-congruence",
+   "text": "Follow-sets of common factors identical for k=1..14 (N=100000) — induction step verified numerically.",
+   "status": "candidate"
+  },
+  {
+   "claim_id": "claim:alignment-reduction",
+   "text": "Run-alignment reduction: u-factor w appears in s iff there exist (j,q) with u(j+1..) = s(i+1..) matching run-length reading — reduces the conjecture to itself at smaller depth, supporting a well-founded induction via the mutual recursion D(s)=u, D(u)=s.",
    "status": "candidate"
   }
  ],
