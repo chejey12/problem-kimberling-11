@@ -1,0 +1,79 @@
+{
+ "schema_version": "1.1.0",
+ "channel": "chatgpt-web-github-issue-pr-writer",
+ "repository": "vibemathing/problem-kimberling-11",
+ "repository_identity": {
+  "binding_state": "verified",
+  "database_id": 1361102452,
+  "node_id": "R_kgDOUSDGdA",
+  "default_branch": "main"
+ },
+ "problem_id": "problem:kimberling-11",
+ "problem_contract_sha256": "19e10a2ece817e12b6ba59960394791d20b9f5185b7a1d4133443a8106bd2558",
+ "harness_snapshot_sha256": "5b73255f84a483499eba82e8351bae5a15fe77001cc4a42b4f5434b6b74054c9",
+ "base_revision": "6d95f7477ab28d16edcc4d5e147350aa2733a620",
+ "importer_policy_sha256": "a7650a8ba5be3fef370914b24a49b1118f57dc12f41980f21b11ef2b0a8267c1",
+ "attempt_id": "attempt:kim11-001",
+ "route_id": "route:factor-search",
+ "graph_id": "graph:kim11-001-v1",
+ "obligation_id": "obligation:root",
+ "generator": {
+  "principal": "chejey12-hermes-agent",
+  "model_label": "hermes-glm-5.3-flash",
+  "model_fingerprint_status": "unverified"
+ },
+ "transport": {
+  "branch": "web/attempt-001-factor",
+  "issue_number": 1,
+  "issue_url": "https://github.com/vibemathing/problem-kimberling-11/issues/1",
+  "pull_request_number": null,
+  "pull_request_url": null
+ },
+ "objective": "Factor search: all factors of r(s) up to length 16 (6654+ starting positions) occur in s. No counterexample.",
+ "candidate_artifacts": [
+  {
+   "candidate_id": "candidate:kim11-final2-py",
+   "kind": "computation",
+   "locator": "research/artifacts/candidates/kim11_final2.py",
+   "sha256": "01fef59423af742f7d09e1fbbe5fe02417a6fd69bcbd5be066c53dd29b7eda8b"
+  }
+ ],
+ "atomic_claims": [
+  {
+   "claim_id": "claim:factors-lt16-present",
+   "text": "All factors of r(s) of length <= 16 (6654+ starting positions each) occur in s = A025142 (10000 terms); r(r(s))=s verified to 4443 terms.",
+   "status": "candidate"
+  }
+ ],
+ "assumptions": [
+  "OEIS A025142 authoritative data",
+  "Exact run-length computation"
+ ],
+ "risks": [
+  "Finite evidence does not prove the universal claim"
+ ],
+ "open_obligations": [
+  "obligation:root"
+ ],
+ "failed_route_proposal": null,
+ "source_refs": [
+  {
+   "repository": "vibemathing/problem-kimberling-11",
+   "path": "problem-library/records/canonical-problems.jsonl",
+   "revision": "6d95f7477ab28d16edcc4d5e147350aa2733a620",
+   "relation": "exact"
+  },
+  {
+   "repository": "external",
+   "path": "oeis.org/A025142",
+   "revision": "retrieved-2026-09-17",
+   "relation": "prior_art"
+  }
+ ],
+ "requested_verification": [
+  "numeric_check",
+  "statement_faithfulness"
+ ],
+ "verdict": "candidate_only",
+ "created_at": "2026-09-17T06:22:00Z"
+}
